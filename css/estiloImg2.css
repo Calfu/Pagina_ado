@@ -1,0 +1,12 @@
+.contenido {
+    width: 20%;
+    border: 5px solid blue;
+}
+img{
+    width: 20%;
+}
+.contenido {
+    text-align:  center;
+    font-family: 'courier new', courier,monospace;
+    font-size: medium;
+}
