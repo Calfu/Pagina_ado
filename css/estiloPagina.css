@@ -1,3 +1,4 @@
+
 .carrusel {
     display: flex;
     justify-content: center;
@@ -68,6 +69,8 @@
 .rrss{
   width: 30%;
   text-align: center;
+  justify-content: center;
+  display: inline;
 }
 
 .rrss ul li{
@@ -85,4 +88,27 @@
 }
 
 
+@media screen and (max-width:900px) {
+  #contenedorCarrusel{
+    display: none;
+  }
+}
 
+
+@media screen and (max-width:600px) {
+  .contenedor_imagen_texto{
+    display: flex;
+    text-align: center;
+    margin-left: 175px;
+  }
+  .rrss{
+    display: flex;
+    text-align: center;
+    margin-left: 175px;
+  }
+  .logo{
+    display: flex;
+    text-align: center;
+    margin-left: 30px;
+  }
+}
