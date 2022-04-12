@@ -1,3 +1,4 @@
+
 .carrusel {
     display: flex;
     justify-content: center;
@@ -85,4 +86,19 @@
 }
 
 
+@media screen and (max-width:700px) {
+  /* le diremos que a ambos aside compartan
+  una fila */
+  #contenedorCarrusel{
+    display: none;
+  }
+}
 
+
+@media screen and (max-width:699px) {
+  .contenedor_imagen_texto{
+    display: flex;
+    text-align: center;
+    position: relative
+  }
+}
