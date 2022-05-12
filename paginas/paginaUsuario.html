@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilopaginaPerros.css">
+    <!-- JQuery -->
+   <!-- incorporamos las jquey y validadores -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script language="javascript" type="text/javascript"
+       src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.10.0/jquery.validate.min.js"></script>
+   <script language="javascript" type="text/javascript"
+       src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/additional-methods.min.js"></script>
+
+    <title>Usuario</title>
+</head>
+
+<body>
+    <div class="header1">
+        <div class="logo">
+            <a href="../index.html"><img src="../icons/logo1.jpg" alt="LOGO MascotasのAdo"></a>
+        </div>
+    </div>
+
+    <form method="POST" id="formulario_usuario" action="#">
+        <form id="contact-form">
+            <div class="form-group">
+                <input type="text" name="u_nombre" id="nombreuser" class="form-control required"
+                    placeholder="Ingrese su nombre">
+            </div>
+            <div class="form-group">
+                <input type="text" name="u_apellido" id="apellidouser" class="form-control required"
+                    placeholder="Ingrese su apellido">
+            </div>
+            <div class="form-group">
+                <input type="email" name="u_email" id="emailuser" class="form-control required"
+                    placeholder="Ingrese su email">
+            </div>
+            <div class="form-group">
+                <input type="password" name="u_contraseña" id="passuser" class="form-control required"
+                    placeholder="Ingrese su contraseña">
+            </div>
+            <div class="form-group">
+                <input type="password" name="u_repetircontraseña" id="repertirpassuser" class="form-control required"
+                    placeholder="Repita su contraseña">
+            </div>
+            <button type="button" class="btn btn-primary" id="btn-registrar" onclick="registrar()">Registrar</button>
+        </form>
+    </form>
+
+    <script src="../js/usuario.js" text="text/javascript"></script>
+</body>
+</html>
