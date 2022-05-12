@@ -88,13 +88,27 @@
 }
 
 
+<<<<<<< HEAD
 @media screen and (max-width:900px) {
+=======
+<<<<<<< HEAD
+@media screen and (max-width:900px) {
+=======
+@media screen and (max-width:700px) {
+  /* le diremos que a ambos aside compartan
+  una fila */
+>>>>>>> a1ecd4972cfd01f26a60890bd7c0c91913eb0219
+>>>>>>> 42a29ffaca1f63f27496af8f48217e5e2149aa85
   #contenedorCarrusel{
     display: none;
   }
 }
 
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 42a29ffaca1f63f27496af8f48217e5e2149aa85
 @media screen and (max-width:600px) {
   .contenedor_imagen_texto{
     display: flex;
@@ -110,6 +124,7 @@
     display: flex;
     text-align: center;
     margin-left: 30px;
+<<<<<<< HEAD
   }
   .img1{
     display: flex;
@@ -124,5 +139,14 @@
   .texto2{
     display: flex;
     text-align: center;
+=======
+=======
+@media screen and (max-width:699px) {
+  .contenedor_imagen_texto{
+    display: flex;
+    text-align: center;
+    position: relative
+>>>>>>> a1ecd4972cfd01f26a60890bd7c0c91913eb0219
+>>>>>>> 42a29ffaca1f63f27496af8f48217e5e2149aa85
   }
 }
