@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilopaginaPerros.css">
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- JQuery Validate -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
+    <title>Identificaciones</title>
+</head>
+
+<body>
+    <div class="header1">
+        <div class="logo">
+            <a href="../index.html"><img src="../icons/logo1.jpg" alt="LOGO MascotasのAdo"></a>
+        </div>
+    </div>
+    <form method="POST" id="formulario1" action="#">
+        <form id="contact-form">
+            <div class="form-group">
+                <input type="text" name="nombre" id="nombreperro" class="form-control required"
+                    placeholder="Nombre del Perro">
+            </div>
+            <div class="form-group">
+                <input type="text" name="raza" id="razaperro" class="form-control required"
+                    placeholder="Raza del Perro">
+            </div>
+            <div class="form-group">
+                <input type="number" name="vacuna" id="vacunaperro" class="form-control required"
+                    placeholder="Vacunas del perro">
+            </div>
+            <button type="button" class="btn btn-primary" id="btn-guardar" onclick="guardar()">Guardar Identificacion</button>
+        </form>
+    </form>
+    <script src="../js/formulario1.js" text="text/javascript"></script>
+
+</body>
+
+</html>    

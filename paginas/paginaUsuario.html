@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilopaginaPerros.css">
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- JQuery Validate -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
+    <title>Usuario</title>
+</head>
+
+<body>
+    <div class="header1">
+        <div class="logo">
+            <a href="../index.html"><img src="../icons/logo1.jpg" alt="LOGO MascotasのAdo"></a>
+        </div>
+    </div>
+    <!-- <br><br><br>
+    <form method="POST" id="formulario1" action="#">
+        <table>
+            <tr>
+                <td><label for="id_txtNombre">Nombre</label></td>
+                <td><input type="Nombre" name="u_nombre" value="" id="id_txtNombre" placeholder="Ingresa su Nombre aquí" />
+                </td>
+            </tr>
+            <tr>
+                <td><label for="id_txtApellido">Apellido</label></td>
+                <td><input type="Appelido" name="u_apellido" value="" id="id_txtApellido" placeholder="Ingresa su Apellido aquí" />
+                </td>
+            </tr>
+            <tr>
+                <td><label for="id_txtEmail">Email</label></td>
+                <td><input type="email" name="u_email" value="" id="id_txtEmail" placeholder="Ingresa su Email aquí" />
+                </td>
+            </tr>
+            <tr>
+                <td><label>Contraseña</label></td>
+                <td><input type="text" name="u_contraseña" value="" required="" id="id_txtContrasena" />
+                </td>
+            </tr>
+            <tr>
+                <td><label>Repetir Contraseña</label></td>
+                <td><input type="text" name="u_repetircontraseña" value="" required="" id="id_txtRepetirContrasena" />
+                </td>
+            </tr>
+            </tbody>
+        </table><br>
+        <input type="submit" value="Registrar" name="btnGuardar" />
+
+        
+    </form> -->
+    <form method="POST" id="formulario_usuario" action="#">
+        <form id="contact-form">
+            <div class="form-group">
+                <input type="text" name="u_nombre" id="nombreuser" class="form-control required"
+                    placeholder="Ingrese su nombre">
+            </div>
+            <div class="form-group">
+                <input type="text" name="u_apellido" id="apellidouser" class="form-control required"
+                    placeholder="Ingrese su apellido">
+            </div>
+            <div class="form-group">
+                <input type="email" name="u_email" id="emailuser" class="form-control required"
+                    placeholder="Ingrese su email">
+            </div>
+            <div class="form-group">
+                <input type="password" name="u_contraseña" id="passuser" class="form-control required"
+                    placeholder="Ingrese su contraseña">
+            </div>
+            <div class="form-group">
+                <input type="password" name="u_repetircontraseña" id="repertirpassuser" class="form-control required"
+                    placeholder="Repita su contraseña">
+            </div>
+            <button type="button" class="btn btn-primary" id="btn-registrar" onclick="registrar()">Registrar</button>
+        </form>
+    </form>
+
+    <script src="../js/usuario.js" text="text/javascript"></script>
+</body>
+</html>
