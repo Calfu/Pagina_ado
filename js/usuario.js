@@ -5,6 +5,7 @@ function registrar() {
 $(document).ready(function () {
     $("#formulario_usuario").validate({
         rules: {
+<<<<<<< HEAD
             "u_nombre":{
                 required: true,
                 minlength: 3
@@ -53,3 +54,50 @@ $(document).ready(function () {
     });
 });
 
+=======
+            u_nombre: {
+                required: true,
+                minlength: 3
+            },
+            u_apellido: {
+                required: true,
+                minlength: 3
+            },
+            u_email: {
+                required: true,
+                email: true
+            },
+            u_contraseña: {
+                required: true
+            },
+            u_repetircontraseña: {
+                required: true,
+                equalTo: u_contraseña
+            },
+        },
+        messages: {
+            u_nombre: {
+                required: "Ingrese algun nombre",
+                minlength: "Minimo 3 caracteres"
+            },
+            u_apellido: {
+                required: "Ingrese alguna raza",
+                minlength: "Minimo 3 caracteres"
+            },
+            u_email: {
+                required: "Ingrese un correo",
+                email: "Ingrese un correo valido"
+            },
+            u_contraseña: {
+                required: "Ingrese una contraseña"
+            },
+            u_repetircontraseña: {
+                required: "Ingrese una contraseña",
+                equalTo: "Las contraseñas deben coincidir"
+            },
+        }
+    });
+});
+
+
+>>>>>>> 99e206ebf0df568df18ed3a9c00a684e06fa9ec4
